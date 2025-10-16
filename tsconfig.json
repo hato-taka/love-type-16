@@ -16,8 +16,21 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "src", "next.config.js", "next.config.ts", "env.d.ts", "playwright.config.ts"],
+  "include": [
+    "next-env.d.ts",
+    "src",
+    "next.config.js",
+    "next.config.ts",
+    "env.d.ts",
+    "playwright.config.ts",
+    ".next/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }
