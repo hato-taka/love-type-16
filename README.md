@@ -29,12 +29,10 @@
 
 - TypeScript / Next.js (App Router)
 - React 18
-- CSS（カスタムトークンでポップなテーマを定義）
+- Tailwind CSS（テーマ拡張でポップな配色を管理）
 - Vitest + Testing Library（ユニットテスト）
 - Playwright（E2E スモークテスト）
 - Vercel デプロイ想定（サーバレス/CSR）
-
-Tailwind CSS の導入予定もありますが、現状はグローバル CSS でスタイリングしています。
 
 ---
 

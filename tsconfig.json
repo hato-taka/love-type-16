@@ -30,7 +30,8 @@
     "next.config.ts",
     "env.d.ts",
     "playwright.config.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "tailwind.config.ts"
   ],
   "exclude": ["node_modules"]
 }

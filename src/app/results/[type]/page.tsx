@@ -34,91 +34,66 @@ export default function ResultPage({ params }: ResultPageProps) {
   }
 
   const { character, title, description, image, type } = result!;
-  const isPlaceholder = Object.values(description).some((value) => value.includes('（仮）')) || character.includes('仮');
+  const isPlaceholder =
+    Object.values(description).some((value) => value.includes('（仮）')) || character.includes('仮');
 
   return (
-    <div className="quiz-shell" style={{ maxWidth: '980px' }}>
-      <div className="quiz-content">
-        <span className="quiz-badge">結果タイプ：{type}</span>
-        <h1 style={{ fontSize: '2.6rem', marginTop: '24px', marginBottom: '16px' }}>
+    <div className="relative mx-auto my-6 w-full max-w-4xl overflow-hidden rounded-[26px] bg-white/90 px-5 py-8 shadow-pop sm:my-12 sm:px-10 sm:py-12">
+      <div className="pointer-events-none absolute -left-28 -top-32 h-64 w-64 rounded-full bg-candy-base/20 blur-3xl" aria-hidden />
+      <div className="pointer-events-none absolute -bottom-36 -right-28 h-72 w-72 rounded-full bg-candy-accent/20 blur-3xl" aria-hidden />
+
+      <div className="relative z-10 space-y-8">
+        <span className="inline-flex w-fit items-center gap-2 rounded-full bg-candy-base/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-candy-base sm:text-sm">
+          結果タイプ：{type}
+        </span>
+        <h1 className="text-[clamp(2rem,6.5vw,2.6rem)] font-semibold leading-tight">
           {character} タイプ
         </h1>
-        <p style={{ fontSize: '1.2rem', marginBottom: '28px', color: 'var(--color-subtle)' }}>{title}</p>
+        <p className="text-[clamp(1rem,3.4vw,1.2rem)] text-candy-lavender">{title}</p>
 
         {isPlaceholder && (
-          <div
-            style={{
-              background: 'rgba(255, 255, 255, 0.85)',
-              borderRadius: '18px',
-              padding: '16px 20px',
-              marginBottom: '24px',
-              border: '2px dashed rgba(255, 111, 183, 0.4)'
-            }}
-          >
-            <strong style={{ display: 'block', marginBottom: '6px' }}>このタイプは仮データです</strong>
-            <span style={{ fontSize: '0.95rem', lineHeight: 1.6 }}>
-              本番の文章やビジュアルが整い次第、`results.json` を更新してください。
+          <div className="rounded-2xl border-2 border-dashed border-candy-base/40 bg-white/85 px-5 py-4 text-sm leading-relaxed text-candy-lavender">
+            <strong className="block pb-1 text-base text-candy-base">このタイプは仮データです</strong>
+            <span className="block text-[clamp(0.85rem,3vw,0.95rem)]">
+              本番の文章やビジュアルが整い次第、results.json を更新してください。
             </span>
           </div>
         )}
 
-        <div
-          style={{
-            display: 'grid',
-            gap: '32px',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))'
-          }}
-        >
-          <div
-            style={{
-              background: 'linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,240,250,0.8))',
-              borderRadius: '24px',
-              padding: '24px',
-              boxShadow: '0 18px 35px rgba(143, 211, 254, 0.28)'
-            }}
-          >
-            <div style={{ position: 'relative', width: '100%', paddingBottom: '100%', borderRadius: '20px', overflow: 'hidden' }}>
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,320px)_minmax(0,1fr)]">
+          <div className="rounded-3xl bg-gradient-to-br from-white/90 via-white/70 to-candy-soft/70 p-6 shadow-pastel">
+            <div className="relative aspect-square w-full overflow-hidden rounded-[22px]">
               <Image
                 src={`/${image}`}
                 alt={`${character} のイラスト`}
                 fill
                 sizes="(max-width: 768px) 100vw, 320px"
-                style={{ objectFit: 'contain' }}
+                className="object-contain"
               />
             </div>
           </div>
 
-          <dl
-            style={{
-              display: 'grid',
-              gap: '20px',
-              margin: 0
-            }}
-          >
+          <dl className="grid gap-5">
             {Object.entries(description).map(([label, value]) => (
-              <div
-                key={label}
-                style={{
-                  background: 'rgba(255, 255, 255, 0.8)',
-                  borderRadius: '20px',
-                  padding: '18px 22px',
-                  boxShadow: '0 10px 24px rgba(255, 111, 183, 0.18)'
-                }}
-              >
-                <dt style={{ fontSize: '0.85rem', letterSpacing: '0.08em', color: 'var(--color-subtle)', marginBottom: '6px' }}>
+              <div key={label} className="rounded-2xl bg-white/85 p-5 shadow-pop">
+                <dt className="text-xs font-semibold uppercase tracking-[0.3em] text-candy-lavender">
                   {label}
                 </dt>
-                <dd style={{ margin: 0, lineHeight: 1.7 }}>{value}</dd>
+                <dd className="pt-2 text-sm leading-7 text-candy-plum sm:text-base">{value}</dd>
               </div>
             ))}
           </dl>
         </div>
 
-        <div style={{ marginTop: '40px', display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
-          <Link className="btn" href="/">
+        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:justify-center">
+          <Link className="inline-flex items-center justify-center rounded-full bg-candy-base px-6 py-3 text-sm font-semibold text-white shadow-pop transition duration-200 hover:-translate-y-0.5 hover:shadow-popHover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-candy-base/60 sm:px-8 sm:py-3.5 sm:text-base" href="/">
             もう一度診断する
           </Link>
-          <Link className="btn btn-secondary" href="/share" prefetch={false}>
+          <Link
+            className="inline-flex items-center justify-center rounded-full border border-candy-lavender/30 bg-white/90 px-6 py-3 text-sm font-semibold text-candy-lavender transition duration-200 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-candy-accent/40 sm:px-8 sm:py-3.5 sm:text-base"
+            href="/share"
+            prefetch={false}
+          >
             結果をシェアする（準備中）
           </Link>
         </div>
