@@ -15,11 +15,11 @@ export interface Question {
 }
 
 export interface ResultDescription {
-  働き方: string;
-  恋愛観: string;
-  結婚観: string;
-  人生観: string;
-  推し活タイプ: string;
+  workStyle: string;
+  loveView: string;
+  marriageView: string;
+  lifeView: string;
+  oshiStyle: string;
 }
 
 export interface PersonalityResult {

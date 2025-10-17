@@ -6,6 +6,21 @@ import { Badge } from '@/components/ui/Badge';
 import { SurfaceShell } from '@/components/ui/SurfaceShell';
 import { buttonClass } from '@/components/ui/button';
 
+function ResultDetail({ label, value }: { label: string; value?: string }) {
+  if (!value) {
+    return null;
+  }
+
+  return (
+    <div className="rounded-2xl bg-white/85 p-5 shadow-pop">
+      <dt className="text-xs font-semibold uppercase tracking-[0.3em] text-candy-lavender">
+        {label}
+      </dt>
+      <dd className="pt-2 text-sm leading-7 text-candy-plum sm:text-base">{value}</dd>
+    </div>
+  );
+}
+
 interface ResultPageProps {
   params: { type: string };
 }
@@ -38,24 +53,26 @@ export default function ResultPage({ params }: ResultPageProps) {
 
   const { character, title, description, image, type } = result!;
   const isPlaceholder =
-    Object.values(description).some((value) => value.includes('（仮）')) || character.includes('仮');
+    Object.values(description)
+      .filter((value): value is string => typeof value === 'string')
+      .some((value) => value.includes('（仮）')) || character.includes('仮');
 
   return (
     <SurfaceShell className="max-w-4xl px-5 py-8 sm:px-10 sm:py-12" contentClassName="space-y-8">
       <Badge>結果タイプ：{type}</Badge>
-        <h1 className="text-[clamp(2rem,6.5vw,2.6rem)] font-semibold leading-tight">
-          {character} タイプ
-        </h1>
-        <p className="text-[clamp(1rem,3.4vw,1.2rem)] text-candy-lavender">{title}</p>
+      <h1 className="text-[clamp(2rem,6.5vw,2.6rem)] font-semibold leading-tight">
+        {character} タイプ
+      </h1>
+      <p className="text-[clamp(1rem,3.4vw,1.2rem)] text-candy-lavender">{title}</p>
 
-        {isPlaceholder && (
-          <div className="rounded-2xl border-2 border-dashed border-candy-base/40 bg-white/85 px-5 py-4 text-sm leading-relaxed text-candy-lavender">
-            <strong className="block pb-1 text-base text-candy-base">このタイプは仮データです</strong>
-            <span className="block text-[clamp(0.85rem,3vw,0.95rem)]">
-              本番の文章やビジュアルが整い次第、results.json を更新してください。
-            </span>
-          </div>
-        )}
+      {isPlaceholder && (
+        <div className="rounded-2xl border-2 border-dashed border-candy-base/40 bg-white/85 px-5 py-4 text-sm leading-relaxed text-candy-lavender">
+          <strong className="block pb-1 text-base text-candy-base">このタイプは仮データです</strong>
+          <span className="block text-[clamp(0.85rem,3vw,0.95rem)]">
+            本番の文章やビジュアルが整い次第、results.json を更新してください。
+          </span>
+        </div>
+      )}
 
       <div className="grid gap-8 lg:grid-cols-[minmax(0,320px)_minmax(0,1fr)]">
         <div className="rounded-3xl bg-gradient-to-br from-white/90 via-white/70 to-candy-soft/70 p-6 shadow-pastel">
@@ -71,14 +88,11 @@ export default function ResultPage({ params }: ResultPageProps) {
         </div>
 
         <dl className="grid gap-5">
-          {Object.entries(description).map(([label, value]) => (
-            <div key={label} className="rounded-2xl bg-white/85 p-5 shadow-pop">
-              <dt className="text-xs font-semibold uppercase tracking-[0.3em] text-candy-lavender">
-                {label}
-              </dt>
-              <dd className="pt-2 text-sm leading-7 text-candy-plum sm:text-base">{value}</dd>
-            </div>
-          ))}
+          <ResultDetail label="働き方" value={description.workStyle} />
+          <ResultDetail label="恋愛観" value={description.loveView} />
+          <ResultDetail label="結婚観" value={description.marriageView} />
+          <ResultDetail label="人生観" value={description.lifeView} />
+          <ResultDetail label="推し活タイプ" value={description.oshiStyle} />
         </dl>
       </div>
 
