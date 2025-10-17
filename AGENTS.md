@@ -150,6 +150,15 @@
 - ファイル命名はコンポーネントを `PascalCase.tsx`、ヘルパーを `camelCase.ts`、定数を `SCREAMING_SNAKE_CASE` に統一します。
 - React では hooks で状態管理し、副作用は `useEffect` で明示し、ビジネスロジックは `src/features` に閉じ込めます。
 
+## UI デザイン指針
+
+- **ブランドカラー**: Tailwind `candy` カラーパレットを中心に、`bg-gradient-to-br from-[#fff7fb] via-[#ffe3f1] to-[#d7f2ff]` を基調背景とします。カード/モーダルは `bg-white/90` とし、影は `shadow-pop` / `shadow-popHover` を使い分けて立体感を演出します。
+- **タイポグラフィ**: `Zen Maru Gothic` をベースに、`text-[clamp(...)]` でヘッダー/本文を可変。見出しは `font-semibold`、本文は `text-candy-lavender`、説明や注釈は `text-candy-lavender/80` を組み合わせます。
+- **レイアウト**: モバイルファーストで設計し、`mx-auto max-w-3xl` を標準のシェル幅に設定。カード内では `space-y-*` と `grid-cols-1 sm:grid-cols-2` を活用し、余白は `gap-4~8` を目安に統一します。
+- **コンポーネント**: プライマリーボタンは `bg-candy-base text-white rounded-full px-6 py-3 shadow-pop`、セカンダリは `border border-candy-lavender/30 bg-white/90 text-candy-lavender`。フォーカスは `focus-visible:ring-2 focus-visible:ring-candy-base/60` を必須とし、ホバーで `-translate-y-0.5` を追加します。
+- **装飾モチーフ**: `absolute` + `blur-3xl` のカラーサークルを `pointer-events-none` で配置し、ポップな雰囲気を出しつつ操作性に影響しないよう制御します。バッジは `rounded-full bg-candy-base/10 px-4 py-2 text-xs uppercase tracking-[0.3em]` を基本形にします。
+- **アクセシビリティ**: 選択肢ボタンには `aria-pressed` を付与し、色だけでなくシャドウとアウトラインで状態差を出します。コントラスト比は WCAG AA を目標とし、テキスト背景は透過率 80%以上の白で確保します。
+
 ## テスト指針
 
 - ユニットとコンポーネントは `tests/<path>.test.tsx` 形式でテストし、`describe` と `it` で挙動を日本語で表現します。
