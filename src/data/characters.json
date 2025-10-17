@@ -1,0 +1,66 @@
+[
+  {
+    "type": "SCF-T",
+    "character": "ばつ丸"
+  },
+  {
+    "type": "SCF-Q",
+    "character": "クロミ"
+  },
+  {
+    "type": "SCA-T",
+    "character": "ポチャッコ"
+  },
+  {
+    "type": "SCA-Q",
+    "character": "シナモン"
+  },
+  {
+    "type": "SAF-T",
+    "character": "けろけろけろっぴ"
+  },
+  {
+    "type": "SAF-Q",
+    "character": "プリン"
+  },
+  {
+    "type": "SAA-T",
+    "character": "ウィッシュミーメル"
+  },
+  {
+    "type": "SAA-Q",
+    "character": "マイメロディ"
+  },
+  {
+    "type": "ICF-T",
+    "character": "ハンギョドン"
+  },
+  {
+    "type": "ICF-Q",
+    "character": "ポムポムプリン"
+  },
+  {
+    "type": "ICA-T",
+    "character": "チアリーチャム"
+  },
+  {
+    "type": "ICA-Q",
+    "character": "ルビー"
+  },
+  {
+    "type": "IAF-T",
+    "character": "タキシードサム"
+  },
+  {
+    "type": "IAF-Q",
+    "character": "リトルツインスターズ（キキ）"
+  },
+  {
+    "type": "IAA-T",
+    "character": "あひるのペックル"
+  },
+  {
+    "type": "IAA-Q",
+    "character": "リトルツインスターズ（ララ）"
+  }
+]
