@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from 'playwright/test';
 
 test('トップページから診断結果まで進める', async ({ page }) => {
   await page.goto('/');
