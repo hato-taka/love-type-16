@@ -158,10 +158,6 @@ export function Quiz({ questions }: QuizProps) {
             </div>
           </section>
         )}
-
-      <footer className="text-center text-xs text-candy-lavender/80 sm:text-sm">
-        ※ この診断はフロントエンドのみで完結し、回答内容は保存されません。
-      </footer>
     </SurfaceShell>
   );
 }
