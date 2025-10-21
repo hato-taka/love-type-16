@@ -1,66 +1,66 @@
 [
   {
-    "type": "SCF-T",
-    "character": "ばつ丸"
+    "type": "IAA-Q",
+    "character": "ララ（リトルツインスターズ）"
   },
   {
-    "type": "SCF-Q",
-    "character": "クロミ"
+    "type": "IAA-T",
+    "character": "キキ（リトルツインスターズ）"
   },
   {
-    "type": "SCA-T",
-    "character": "ポチャッコ"
-  },
-  {
-    "type": "SCA-Q",
-    "character": "シナモン"
-  },
-  {
-    "type": "SAF-T",
-    "character": "けろけろけろっぴ"
-  },
-  {
-    "type": "SAF-Q",
-    "character": "プリン"
-  },
-  {
-    "type": "SAA-T",
-    "character": "ウィッシュミーメル"
-  },
-  {
-    "type": "SAA-Q",
-    "character": "マイメロディ"
-  },
-  {
-    "type": "ICF-T",
-    "character": "ハンギョドン"
-  },
-  {
-    "type": "ICF-Q",
-    "character": "ポムポムプリン"
-  },
-  {
-    "type": "ICA-T",
-    "character": "チアリーチャム"
-  },
-  {
-    "type": "ICA-Q",
-    "character": "ルビー"
+    "type": "IAF-Q",
+    "character": "あひるのペックル"
   },
   {
     "type": "IAF-T",
     "character": "タキシードサム"
   },
   {
-    "type": "IAF-Q",
-    "character": "リトルツインスターズ（キキ）"
+    "type": "ICA-Q",
+    "character": "マイメロディ"
   },
   {
-    "type": "IAA-T",
-    "character": "あひるのペックル"
+    "type": "ICA-T",
+    "character": "ハローキティ"
   },
   {
-    "type": "IAA-Q",
-    "character": "リトルツインスターズ（ララ）"
+    "type": "ICF-Q",
+    "character": "ぐでたま"
+  },
+  {
+    "type": "ICF-T",
+    "character": "ハンギョドン"
+  },
+  {
+    "type": "SAA-Q",
+    "character": "ウィッシュミーメル"
+  },
+  {
+    "type": "SAA-T",
+    "character": "ヨシキティ"
+  },
+  {
+    "type": "SAF-Q",
+    "character": "ポムポムプリン"
+  },
+  {
+    "type": "SAF-T",
+    "character": "シナモロール"
+  },
+  {
+    "type": "SCA-Q",
+    "character": "けろけろけろっぴ"
+  },
+  {
+    "type": "SCA-T",
+    "character": "ポチャッコ"
+  },
+  {
+    "type": "SCF-Q",
+    "character": "クロミ"
+  },
+  {
+    "type": "SCF-T",
+    "character": "バッドばつ丸"
   }
 ]

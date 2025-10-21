@@ -7,7 +7,7 @@ export type AnswerMap = Record<number, ChoiceValue>;
 const dimensionLetterMap: Record<Dimension, Record<ChoiceValue, string>> = {
   principle: { A: 'S', B: 'I' },
   cognition: { A: 'C', B: 'A' },
-  stance: { A: 'S', B: 'F' },
+  stance: { A: 'A', B: 'F' },
   energy: { A: 'T', B: 'Q' }
 };
 

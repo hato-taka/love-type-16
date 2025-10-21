@@ -75,7 +75,7 @@
 ```json
 {
   "typeCode": "SCF-T",
-  "character": "ハンギョドン",
+  "character": "バッドばつ丸",
   "title": "ギャグで生きてる自由人",
   "summary": "盛り上げ担当・妄想力MAXな愛されギャグ人間",
   "description": {
@@ -85,7 +85,7 @@
     "人生観": "流されてるようで芯がある。決めつけNG。",
     "推し活タイプ": "ライブ中にコールをアレンジして盛り上げる系"
   },
-  "shareImageUrl": "https://cdn.example.com/results/hangyodon.png"
+  "shareImageUrl": "https://cdn.example.com/results/badtzmaru.png"
 }
 ```
 
@@ -95,7 +95,7 @@
 .
 ├── public/
 │   └── results/
-│       └── hangyodon.png   # キャラ画像（CDNホスト推奨）
+│       └── badtzmaru.png   # キャラ画像（CDNホスト推奨）
 ├── src/
 │   ├── data/
 │   │   ├── questions.json
