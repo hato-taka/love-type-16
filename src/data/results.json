@@ -2,208 +2,208 @@
   {
     "type": "SCF-T",
     "character": "バッドばつ丸",
-    "title": "おもしろ追求型 × 抽象思考 × 自由人 × 静かな情熱家",
+    "title": "自由と反骨、内に秘めた情熱型",
     "description": {
-      "workStyle": "人の下につくより、自由な発想で自分の道を切り開きたいタイプ。定型業務よりも企画職やクリエイティブな仕事に向いています。チームでの役割は一匹狼的だけど、実は周囲をよく観察しています。",
-      "loveView": "駆け引きや情熱的なアプローチより、独自の価値観を共有できる相手に惹かれます。言葉での愛情表現は少なめですが、深く静かに相手を想っています。",
-      "marriageView": "束縛は苦手。だけど、信頼し合える関係性には誠実。結婚後も互いに自立しつつ、心の拠り所になるような関係を築きたいと思っています。",
-      "lifeView": "人生は一度きり、自分らしく生きたい。多数派になるより、少数派でも自分の美学を貫くことに価値を感じます。",
-      "oshiStyle": "布教はしないけど、誰よりも深く推しを理解している“隠れ神ファン”タイプ。グッズよりも作品の世界観そのものを愛する傾向あり。"
+      "workStyle": "独自の視点で物事を捉え、型にはまらない働き方を好みます。挑戦的で創造的な環境を求めます。",
+      "loveView": "情熱的でありながらも自立心が強く、相手との自由な関係を大切にします。",
+      "marriageView": "束縛を嫌いながらも、深い信頼と尊重に基づいたパートナーシップを築きます。",
+      "lifeView": "自分らしさを追求し、困難にも果敢に立ち向かう人生観を持っています。",
+      "oshiStyle": "表に出さない熱狂的なファンであり、作品の本質を深く理解し愛しています。"
     },
     "image": "results/badtzmaru.png"
   },
   {
     "type": "SCF-Q",
     "character": "クロミ",
-    "title": "性格タイプの名称（仮）",
+    "title": "ミステリアスでクールな独立心旺盛型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "冷静沈着で計画的、独立して仕事を進めることを好みます。",
+      "loveView": "深い絆を求めつつも、自由な空間を尊重する恋愛観です。",
+      "marriageView": "パートナーとのバランスを重視し、互いの個性を尊重した結婚観を持ちます。",
+      "lifeView": "自分のペースで人生を歩み、内面の強さを大切にします。",
+      "oshiStyle": "クールな魅力を持ちつつも、情熱的な推し活を楽しみます。"
     },
     "image": "results/kuromi.png"
   },
   {
     "type": "SCA-T",
     "character": "ポチャッコ",
-    "title": "性格タイプの名称（仮）",
+    "title": "明るく社交的なチームワーク重視型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "協調性が高く、チームの中での役割を積極的に果たします。",
+      "loveView": "オープンで素直なコミュニケーションを大切にする恋愛スタイルです。",
+      "marriageView": "家庭的で安定を求める傾向があり、温かい関係を築きます。",
+      "lifeView": "日常の楽しさを重視し、周囲との調和を大切にします。",
+      "oshiStyle": "明るく元気な推し活で、周囲を盛り上げるタイプです。"
     },
     "image": "results/pochacco.png"
   },
   {
     "type": "SCA-Q",
     "character": "けろけろけろっぴ",
-    "title": "性格タイプの名称（仮）",
+    "title": "好奇心旺盛で柔軟なクリエイティブ型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "新しいことに挑戦し、柔軟に対応しながら創造的に働きます。",
+      "loveView": "自由な発想と遊び心を持ち、楽しい関係を好みます。",
+      "marriageView": "お互いの成長を支え合うパートナーシップを目指します。",
+      "lifeView": "変化を楽しみ、好奇心を原動力に人生を切り開きます。",
+      "oshiStyle": "独自の感性で推しを楽しみ、多様な表現を受け入れます。"
     },
     "image": "results/keroppi.png"
   },
   {
     "type": "SAF-T",
     "character": "シナモロール",
-    "title": "性格タイプの名称（仮）",
+    "title": "優しさと包容力あふれる癒し型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "温かく丁寧な対応を心がけ、周囲を和ませる存在です。",
+      "loveView": "穏やかで思いやりのある愛情表現を大切にします。",
+      "marriageView": "安定と安心を求め、家庭を大切にする傾向があります。",
+      "lifeView": "平和で穏やかな日々を望み、心の安らぎを重視します。",
+      "oshiStyle": "優しい気持ちで推しを応援し、癒しの存在となります。"
     },
     "image": "results/cinnamoroll.png"
   },
   {
     "type": "SAF-Q",
     "character": "ポムポムプリン",
-    "title": "性格タイプの名称（仮）",
+    "title": "親しみやすく楽観的なムードメーカー型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "明るく楽しい雰囲気を作り、周囲を和ませます。",
+      "loveView": "ポジティブで気さくな愛情表現を好みます。",
+      "marriageView": "笑顔あふれる家庭を築き、楽しい時間を共有します。",
+      "lifeView": "前向きで楽観的に物事を捉え、人生を楽しみます。",
+      "oshiStyle": "明るく元気よく推しを応援し、周囲を巻き込みます。"
     },
     "image": "results/pompompurin.png"
   },
   {
     "type": "SAA-T",
     "character": "ヨシキティ",
-    "title": "性格タイプの名称（仮）",
+    "title": "誠実で責任感の強い安定志向型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "計画的で責任感が強く、着実に仕事をこなします。",
+      "loveView": "誠実で真面目な愛情を注ぎ、信頼関係を重視します。",
+      "marriageView": "安定した生活を望み、家庭を守ることに努めます。",
+      "lifeView": "堅実で安定した人生設計を好み、安心感を求めます。",
+      "oshiStyle": "真面目に推しを応援し、長期的な関係を大切にします。"
     },
     "image": "results/yoshikitty.png"
   },
   {
     "type": "SAA-Q",
     "character": "ウィッシュミーメル",
-    "title": "性格タイプの名称（仮）",
+    "title": "夢見がちで繊細なロマンチスト型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "繊細で丁寧な作業を好み、夢を追い求めます。",
+      "loveView": "ロマンチックで感受性豊かな愛情表現をします。",
+      "marriageView": "理想を大切にし、心温まる関係を築きます。",
+      "lifeView": "夢や希望を持ち続け、感性豊かに生きます。",
+      "oshiStyle": "繊細な感性で推しを愛し、深く共感します。"
     },
     "image": "results/wishmemell.png"
   },
   {
     "type": "ICF-T",
     "character": "ハンギョドン",
-    "title": "性格タイプの名称（仮）",
+    "title": "穏やかで誠実なサポート型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "控えめで誠実に仕事をこなし、周囲を支えます。",
+      "loveView": "穏やかで安定した愛情を大切にします。",
+      "marriageView": "家庭を大事にし、落ち着いた関係を築きます。",
+      "lifeView": "平和で安定した生活を望み、調和を重視します。",
+      "oshiStyle": "静かに推しを支え、長く応援し続けます。"
     },
     "image": "results/hangyodon.png"
   },
   {
     "type": "ICF-Q",
     "character": "ぐでたま",
-    "title": "性格タイプの名称（仮）",
+    "title": "マイペースで自由奔放なリラックス型",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "気ままで自由なスタイルを好み、無理をしません。",
+      "loveView": "自由で気楽な関係を求め、束縛を嫌います。",
+      "marriageView": "ゆるやかで自然体のパートナーシップを大切にします。",
+      "lifeView": "マイペースに生きることを重視し、ストレスを避けます。",
+      "oshiStyle": "自由な発想で推しを楽しみ、気楽に応援します。"
     },
     "image": "results/gudetama.png"
   },
   {
     "type": "ICA-T",
     "character": "ハローキティ",
-    "title": "性格タイプの名称（仮）",
+    "title": "明るく社交的な人気者タイプ",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "誰とでも仲良くなれる社交性が高く、チームで活躍します。",
+      "loveView": "オープンで楽しい恋愛を好み、明るく接します。",
+      "marriageView": "家族や友人との関係を大切にし、温かい家庭を築きます。",
+      "lifeView": "ポジティブで明るい人生観を持ち、多くの人に愛されます。",
+      "oshiStyle": "誰からも愛される推しを応援し、みんなで楽しみます。"
     },
     "image": "results/hellokitty.png"
   },
   {
     "type": "ICA-Q",
     "character": "マイメロディ",
-    "title": "性格タイプの名称（仮）",
+    "title": "優しく思いやりのある癒し系",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "丁寧で思いやりのある働き方をし、周囲を和ませます。",
+      "loveView": "優しさと誠実さを持った愛情表現をします。",
+      "marriageView": "穏やかで安定した家庭を築くことを望みます。",
+      "lifeView": "心の平和を大切にし、穏やかな人生を歩みます。",
+      "oshiStyle": "優しい気持ちで推しを支え、癒しの存在となります。"
     },
     "image": "results/mymelody.png"
   },
   {
     "type": "IAF-T",
     "character": "タキシードサム",
-    "title": "性格タイプの名称（仮）",
+    "title": "礼儀正しく誠実な紳士タイプ",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "礼儀正しく真面目に仕事に取り組み、信頼されます。",
+      "loveView": "誠実で丁寧な愛情を示し、相手を尊重します。",
+      "marriageView": "責任感が強く、安定した家庭を築くことを目指します。",
+      "lifeView": "規律を重んじ、真面目に人生を歩むタイプです。",
+      "oshiStyle": "真面目に推しを応援し、誠実なファン活動を行います。"
     },
     "image": "results/tuxedosam.png"
   },
   {
     "type": "IAF-Q",
     "character": "あひるのペックル",
-    "title": "性格タイプの名称（仮）",
+    "title": "元気で前向きなチャレンジャータイプ",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "エネルギッシュに挑戦を楽しみ、積極的に仕事に取り組みます。",
+      "loveView": "明るくポジティブな愛情表現で関係を盛り上げます。",
+      "marriageView": "活発で楽しい家庭を築き、共に成長を目指します。",
+      "lifeView": "前向きで挑戦を恐れず、人生を楽しむ姿勢を持っています。",
+      "oshiStyle": "元気いっぱいに推しを応援し、周囲を巻き込みます。"
     },
     "image": "results/pekkle.png"
   },
   {
     "type": "IAA-T",
     "character": "キキ（リトルツインスターズ）",
-    "title": "性格タイプの名称（仮）",
+    "title": "純粋で夢見がちなクリエイタータイプ",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "想像力豊かで夢を形にすることを楽しみます。",
+      "loveView": "純粋で繊細な愛情を大切にし、相手を思いやります。",
+      "marriageView": "理想を追い求めるロマンチックな結婚観を持ちます。",
+      "lifeView": "夢や希望を大切にし、感性豊かに生きるタイプです。",
+      "oshiStyle": "クリエイティブな視点で推しを愛し、深く共感します。"
     },
     "image": "results/little-twin-stars-kiki.png"
   },
   {
     "type": "IAA-Q",
     "character": "ララ（リトルツインスターズ）",
-    "title": "性格タイプの名称（仮）",
+    "title": "穏やかで優しい癒しの天使タイプ",
     "description": {
-      "workStyle": "（仮）",
-      "loveView": "（仮）",
-      "marriageView": "（仮）",
-      "lifeView": "（仮）",
-      "oshiStyle": "（仮）"
+      "workStyle": "穏やかで丁寧な働き方をし、周囲を癒します。",
+      "loveView": "優しく包み込むような愛情表現をします。",
+      "marriageView": "安定と調和を重視し、穏やかな家庭を築きます。",
+      "lifeView": "平和で優しい人生を望み、周囲と調和します。",
+      "oshiStyle": "癒しの力で推しを支え、温かく応援します。"
     },
     "image": "results/little-twin-stars-lala.png"
   }
