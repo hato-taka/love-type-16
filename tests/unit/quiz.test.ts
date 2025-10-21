@@ -3,7 +3,9 @@ import { computePersonalityType, findResultByType, getQuestions } from '@/lib/qu
 
 const questions = getQuestions();
 
+// 設問回答からタイプ判定と結果取得が意図通りに動くことを確認する単体テスト群
 describe('computePersonalityType', () => {
+  // 特定の回答セットで既知のタイプが算出されデータに紐づくことを確認する
   it('returns a known personality signature when answers map to data', () => {
     const answers: Record<number, 'A' | 'B'> = {};
 
@@ -21,6 +23,7 @@ describe('computePersonalityType', () => {
     expect(findResultByType(resultType!)).toBeDefined();
   });
 
+  // タイプコードの大文字小文字が混在しても結果検索できることを確認する
   it('matches result lookup regardless of casing', () => {
     const result = findResultByType('scf-t');
     expect(result?.type).toBe('SCF-T');
