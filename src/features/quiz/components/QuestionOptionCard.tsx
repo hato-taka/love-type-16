@@ -19,7 +19,7 @@ export function QuestionOptionCard({ option, isSelected, onSelect }: QuestionOpt
       )}
       onClick={onSelect}
       aria-pressed={isSelected}
-      aria-label={`${option.label} を選択`}
+      aria-label={`選択肢${option.value}: ${option.label}`}
     >
       <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-candy-accent text-base font-semibold text-white shadow-sm">
         {option.value}
