@@ -26,6 +26,8 @@ export interface PersonalityResult {
   type: string;
   character: string;
   title: string;
+  summary?: string;
   description: ResultDescription;
   image: string;
+  shareImageUrl?: string;
 }

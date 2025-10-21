@@ -104,6 +104,12 @@ export default function ResultPage({ params }: ResultPageProps) {
           結果をシェアする（準備中）
         </Link>
       </div>
+
+      <div className="flex justify-center pt-6">
+        <Link className={buttonClass({ variant: 'secondary' })} href="/results" prefetch={false}>
+          全タイプの一覧を見る
+        </Link>
+      </div>
     </SurfaceShell>
   );
 }
