@@ -116,6 +116,14 @@ npm run e2e            # Playwright（要: 別ターミナルで npm run dev）
 
 ---
 
+## 📣 SNS シェア / OGP 設定
+
+- ルートレイアウト（`src/app/layout.tsx`）で共通の Open Graph / Twitter Card 情報と `metadataBase` を定義済み。実ドメインに合わせて `https://sanrio-personality-checker.example` を差し替えてください。
+- デフォルトの OGP 画像は `public/og-image.png`（仮置き）。完成版の 1200×630 画像に差し替えて更新してください。
+- 診断結果ページは `shareImageUrl`（またはローカル画像）をメタタグにも利用します。SNS 用の個別画像を準備したら `results.json` を更新して反映させてください。
+
+---
+
 ## 📝 注意事項
 
 - 本アプリはサンリオ非公式のファンプロジェクトです。

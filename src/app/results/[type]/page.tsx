@@ -38,9 +38,32 @@ export function generateMetadata({ params }: ResultPageProps) {
     };
   }
 
+  const title = `${result.character}タイプ | サンリオ恋愛性格診断`;
+  const description = `${result.character}タイプ（${result.title}）の診断結果です。`;
+  const imageUrl = result.shareImageUrl ?? `/${result.image}`;
+  const pageUrl = `/results/${result.type.toLowerCase()}`;
+
   return {
-    title: `${result.character}タイプ | サンリオ恋愛性格診断`,
-    description: `${result.character}タイプ（${result.title}）の診断結果です。`
+    title,
+    description,
+    openGraph: {
+      type: 'article',
+      title,
+      description,
+      url: pageUrl,
+      images: [
+        {
+          url: imageUrl,
+          alt: `${result.character}タイプの診断カード`
+        }
+      ]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [imageUrl]
+    }
   };
 }
 

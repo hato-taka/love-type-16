@@ -5,7 +5,29 @@ import { getAllResults } from '@/lib/quiz';
 
 export const metadata = {
   title: '全16タイプの一覧 | サンリオ恋愛性格診断',
-  description: '16タイプのサンリオキャラクター診断結果をまとめて閲覧できます。気になるタイプをチェックして詳細ページへアクセスしましょう。'
+  description:
+    '16タイプのサンリオキャラクター診断結果をまとめて閲覧できます。気になるタイプをチェックして詳細ページへアクセスしましょう。',
+  openGraph: {
+    title: '全16タイプの一覧 | サンリオ恋愛性格診断',
+    description:
+      '16タイプのサンリオキャラクター診断結果をまとめて閲覧できます。気になるタイプをチェックして詳細ページへアクセスしましょう。',
+    url: '/results',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sanrio Personality Checker の診断一覧'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '全16タイプの一覧 | サンリオ恋愛性格診断',
+    description:
+      '16タイプのサンリオキャラクター診断結果をまとめて閲覧できます。気になるタイプをチェックして詳細ページへアクセスしましょう。',
+    images: ['/og-image.png']
+  }
 };
 
 export default function ResultsIndexPage() {
