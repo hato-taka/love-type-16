@@ -119,6 +119,7 @@ npm run e2e            # Playwright（要: 別ターミナルで npm run dev）
 ## 📣 SNS シェア / OGP 設定
 
 - ルートレイアウト（`src/app/layout.tsx`）で共通の Open Graph / Twitter Card 情報と `metadataBase` を定義済み。実ドメインに合わせて `https://sanrio-personality-checker.example` を差し替えてください。
+- ルートレイアウト（`src/app/layout.tsx`）で共通の Open Graph / Twitter Card 情報と `metadataBase` を定義済み。`NEXT_PUBLIC_SITE_URL` に公開ドメインを設定するとメタタグの絶対 URL に反映されます（未設定時は `https://love-type-16-dig3.vercel.app` を利用）。
 - デフォルトの OGP 画像は `public/og-image.png`（仮置き）。完成版の 1200×630 画像に差し替えて更新してください。
 - 診断結果ページは `shareImageUrl`（またはローカル画像）をメタタグにも利用します。SNS 用の個別画像を準備したら `results.json` を更新して反映させてください。
 

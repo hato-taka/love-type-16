@@ -8,11 +8,13 @@ const zenMaruGothic = Zen_Maru_Gothic({
   display: 'swap'
 });
 
+const appBaseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://love-type-16-dig3.vercel.app';
+
 export const metadata: Metadata = {
   title: 'Sanrio Personality Checker',
   description:
     '16問でわかるサンリオ恋愛性格診断。4軸の傾向からあなたにぴったりのキャラクタータイプを提案します。',
-  metadataBase: new URL('https://sanrio-personality-checker.example'),
+  metadataBase: new URL(appBaseUrl),
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
